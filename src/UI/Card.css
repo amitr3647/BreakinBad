@@ -1,0 +1,41 @@
+.card {
+  text-align: center;
+  height: 16rem;
+  position: relative;
+  overflow: hidden;
+}
+.card-front img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.card:hover .card-box {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* -webkit-backface-visibility: hidden; */
+  backface-visibility: hidden;
+}
+
+.card-back {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  transform: rotateY(180deg);
+}
+
+.card-back li {
+  list-style: none;
+}

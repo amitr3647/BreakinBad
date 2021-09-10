@@ -1,0 +1,6 @@
+.form-control input{
+    height: 2rem;
+    width: 40rem;
+    max-width: 70%;
+    margin: 25px;
+}

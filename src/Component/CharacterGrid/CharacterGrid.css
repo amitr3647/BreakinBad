@@ -1,0 +1,20 @@
+.characterGrid {
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  gap: 2rem;
+  max-width: 1000px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 950px) {
+  .characterGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .characterGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
