@@ -53,6 +53,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/c
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/673a932a-d9db-410a-a8f5-cbf7dac27b95/deploy-status)](https://app.netlify.com/sites/breakingbad3647/deploys)
 ### Making a Progressive Web App
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
